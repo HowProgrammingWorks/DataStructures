@@ -15,4 +15,3 @@ let obj3 = {
   city: 'Roma',
   born: 121
 };
-

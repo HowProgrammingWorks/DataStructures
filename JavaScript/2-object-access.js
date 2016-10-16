@@ -1,5 +1,6 @@
 'use strict';
 
+// Object/Hash
 let person = {
   name: 'Marcus',
   city: 'Roma',
@@ -14,3 +15,11 @@ console.dir({ person });
 
 delete person['city'];
 console.dir({ person });
+
+// With getter
+let person2 = {
+  name: 'Marcus Aurelius',
+  getCity() {
+    return 'Roma';
+  }
+};
