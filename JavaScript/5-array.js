@@ -1,6 +1,6 @@
 'use strict';
 
-let letters = [];
+const letters = [];
 letters.push('B');
 console.dir({ letters });
 letters.unshift('A');
@@ -8,11 +8,11 @@ console.dir({ letters });
 letters.push('C');
 console.dir({ letters });
 
-let numbers = [];
+const numbers = [];
 
-let languages = ['C++', 'JavaScript', 'Python', 'Haskell', 'Swift'];
+const languages = ['C++', 'JavaScript', 'Python', 'Haskell', 'Swift'];
 console.dir({
   length: languages.length,
   'languages[0]': languages[0],
-  'languages[languages.length-1]': languages[languages.length-1]
+  'languages[languages.length-1]': languages[languages.length - 1]
 });
