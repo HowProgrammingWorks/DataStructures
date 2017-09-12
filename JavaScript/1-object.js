@@ -15,3 +15,5 @@ const obj3 = {
   city: 'Roma',
   born: 121
 };
+
+console.dir({ obj1, obj2, obj3 });
