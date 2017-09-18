@@ -20,21 +20,21 @@ const name = 'Marcus Aurelius';
 const city = 'Rome';
 
 // Old style
-const a = { name: name, city: city };
+const person1 = { name: name, city: city };
 
 // New style
-const b = { name, city };
+const person2 = { name, city };
 
 // Dynamic field name
 const fieldName = 'city';
 const fieldValue = 'Roma';
-const person2 = {
+const person3 = {
   name: 'Marcus Aurelius',
   [fieldName]: fieldValue
 };
 
 // Expression in field name
-const person3 = {
+const person4 = {
   name: 'Marcus Aurelius',
   ['city' + 'Born']: fieldValue
 };
@@ -44,7 +44,7 @@ function fn(s) {
   return s + 'Born';
 }
 
-const person4 = {
+const person5 = {
   name: 'Marcus Aurelius',
   [fn('city')]: fieldValue
 };

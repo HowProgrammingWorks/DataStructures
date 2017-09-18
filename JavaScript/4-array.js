@@ -17,5 +17,5 @@ const languages = ['C++', 'JavaScript', 'Python', 'Haskell', 'Swift'];
 console.dir({
   length: languages.length,
   'languages[0]': languages[0],
-  'languages[languages.length-1]': languages[languages.length - 1]
+  'languages[languages.length - 1]': languages[languages.length - 1]
 });
