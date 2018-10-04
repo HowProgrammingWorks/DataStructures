@@ -4,7 +4,7 @@
 const person = {
   name: 'Marcus',
   city: 'Roma',
-  born: 121
+  born: 121,
 };
 
 console.log('Person name is: ' + person.name);
@@ -24,7 +24,7 @@ const person2 = {
   },
   set city(value) {
     console.log('Marcus remains in Roma');
-  }
+  },
 };
 
 person2.city = 'Kiev';

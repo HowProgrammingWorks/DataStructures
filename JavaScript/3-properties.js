@@ -3,7 +3,7 @@
 const person = {
   name: 'Marcus',
   city: 'Roma',
-  born: 121
+  born: 121,
 };
 
 if ('name' in person) {
@@ -30,13 +30,13 @@ const fieldName = 'city';
 const fieldValue = 'Roma';
 const person3 = {
   name: 'Marcus Aurelius',
-  [fieldName]: fieldValue
+  [fieldName]: fieldValue,
 };
 
 // Expression in field name
 const person4 = {
   name: 'Marcus Aurelius',
-  ['city' + 'Born']: fieldValue
+  ['city' + 'Born']: fieldValue,
 };
 
 // Function in field name
@@ -46,5 +46,7 @@ function fn(s) {
 
 const person5 = {
   name: 'Marcus Aurelius',
-  [fn('city')]: fieldValue
+  [fn('city')]: fieldValue,
 };
+
+console.dir({ person1, person2, person3, person4, person5 });

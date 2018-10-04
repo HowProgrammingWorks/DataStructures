@@ -13,7 +13,7 @@ person2.born = 121;
 const person3 = {
   name: 'Marcus',
   city: 'Roma',
-  born: 121
+  born: 121,
 };
 
 console.dir({ person1, person2, person3 });
