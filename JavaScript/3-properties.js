@@ -47,7 +47,7 @@ const city = 'Rome';
 
 // Function in field name
 {
-  const fn = s => s + 'Born';
+  const fn = (s) => s + 'Born';
   const person = {
     name: 'Marcus Aurelius',
     [fn('city')]: 'Roma',
