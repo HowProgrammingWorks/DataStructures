@@ -12,7 +12,7 @@ console.log(s);
 const obj = JSON.parse(s);
 console.dir(obj);
 
-console.log('person === obj is ', person === obj);
+console.log(`person === obj is ${person === obj}`);
 
 const letters = ['A', 'B', 'C', 'D'];
 console.log(letters.toString());

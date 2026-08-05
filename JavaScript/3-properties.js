@@ -7,7 +7,7 @@ const person = {
 };
 
 if ('name' in person) {
-  console.log('Person name is: ' + person.name);
+  console.log(`Person name is: ${person.name}`);
 }
 
 for (const key in person) {
